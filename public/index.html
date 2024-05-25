@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ezfuzzy's Graph Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Graph Visualizer</h1>
+    <form id="matrix-form">
+        <label for="matrix-input">Enter adjacency matrix with weights in JSON format:</label><br><br>
+        <textarea id="matrix-input" placeholder='[&#13;&#10   [0, 1, 0],&#13;&#10   [1, 0, 1],&#13;&#10   [0, 1, 0]&#13;&#10]'></textarea>
+        <button type="submit">Visualize</button><br>
+        <label for="weight-checkbox">
+          <input type="checkbox" name="weight-checkbox" id="weight-checkbox"> weight
+        </label>
+        <label for="direction-checkbox">
+        <input type="checkbox" name="direction-checkbox" id="direction-checkbox" style="margin-left: 30px;"> direction
+        </label>
+    </form>
+    <div id="tips">
+      you can move the nodes by dragging them around
+    </div>
+    <div id="graph"></div>
+    
+    <a id="github"href="https://github.com/fuzzy-yzz/Graph-Visualizer" target="_blank">
+        <img src="./github-logo.svg" alt="GitHub Logo">
+    </a>
+    
+
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="script.js"></script>
+    <script src="graph.js"></script>
+</body>
+</html>
