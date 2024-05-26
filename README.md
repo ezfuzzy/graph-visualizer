@@ -2,8 +2,8 @@
 
 # Graph Visualizer
 
-www.ezfuzzy.xyz
-/> https://graph-visualizer-ad6143190cac.herokuapp.com/
+### www.ezfuzzy.xyz
+### https://graph-visualizer-ad6143190cac.herokuapp.com/
 
 This web-app make matrix to graph.
 
