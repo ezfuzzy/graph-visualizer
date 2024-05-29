@@ -2,6 +2,9 @@
 
 # Graph Visualizer
 
+### www.ezfuzzy.xyz
+### https://graph-visualizer-ad6143190cac.herokuapp.com/
+
 This web-app make matrix to graph.
 
 You can drag the nodes for yourself.
